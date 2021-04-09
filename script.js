@@ -15,6 +15,8 @@ const items = [
     
 ]
 
+document.getElementById('app')
+
 // less than $100 filterMethod
 
 const products = items.filter(function(item){
