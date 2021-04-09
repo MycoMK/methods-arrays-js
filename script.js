@@ -15,7 +15,12 @@ const items = [
     
 ]
 
-document.getElementById('app')
+document.getElementById('app').innerHTML = ('js project creating an app');
+app.style.background = 'pink'
+app.style.padding = '25px'
+
+
+ 
 
 // less than $100 filterMethod
 
