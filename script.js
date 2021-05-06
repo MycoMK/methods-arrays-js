@@ -24,14 +24,14 @@ app.style.padding = '25px'
 
 // less than $100 filterMethod
 
-const products = items.filter(function(item){
+const products = items.filter((item) => {
     return item.price <= 100
 })
  console.log(products)
 
 //  mapMethod
 
-const itemNames = items.map(function(item){
+const itemNames = items.map((item) => {
     return item.name
 })
 console.log(itemNames)
@@ -45,21 +45,21 @@ console.log(itemsFound)
 
 // froEach
 
-listItems = items.forEach(function(found){
+listItems = items.forEach((found) => {
 console.log(found.name)
 console.log(found.price)
 })
 
 //  someFunction
 
-const nonExpensiveItems = items.some(function(notExpensive){
+const nonExpensiveItems = items.some((notExpensive) => {
     return notExpensive.price <=0
 })
 console.log(nonExpensiveItems)
 
 
 // everyMethod
-const checkItems = items.every(function(allItems){
+const checkItems = items.every((allItems) => {
     return allItems.price <=1000
 })
 console.log(checkItems)
@@ -67,7 +67,7 @@ console.log(checkItems)
 
 // reduceMethod adding all the prices together
 
-const total = items.reduce(function(currentTotal, items){
+const total = items.reduce((currentTotal, items) => {
 return items.price + currentTotal
 }, 0)
 
@@ -77,6 +77,14 @@ console.log(total)
 
 const people = age.includes(16)
 console.log(people)
+
+
+// const addedTotal = items.reduce((price, total) =>{
+//     return price + total
+// })
+// console.log(addedTotal)
+
+
 
 
 
