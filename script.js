@@ -38,7 +38,7 @@ console.log(itemNames)
 
 // findMethod
 
-const itemsFound = items.find(function(item){
+const itemsFound = items.find((item) => {
     return  item.name === 'Phone'
 })
 console.log(itemsFound)
