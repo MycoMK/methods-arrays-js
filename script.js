@@ -79,10 +79,10 @@ const people = age.includes(16)
 console.log(people)
 
 
-// const addedTotal = items.reduce((price, total) =>{
-//     return price + total
-// })
-// console.log(addedTotal)
+const addedTotal = items.reduce((price, total) =>{
+    return price + total
+})
+console.log(addedTotal)
 
 
 
