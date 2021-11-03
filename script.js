@@ -36,6 +36,8 @@ const itemNames = items.map((item) => {
 })
 console.log(itemNames)
 
+
+
 // findMethod
 
 const itemsFound = items.find((item) => {
